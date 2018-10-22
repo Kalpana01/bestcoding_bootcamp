@@ -1,5 +1,3 @@
-require "bestcoding_bootcamp/version"
+require_relative "bestcoding_bootcamp/version"
+require_relative "bestcoding_bootcamp/cli"
 
-module BestcodingBootcamp
-  # Your code goes here...
-end
