@@ -1,5 +1,5 @@
 class BestcodingBootcamp::Bootcamps 
-  attr_accessor :name, :location, :url, :subjects. :classsize 
+  attr_accessor :name, :description,:price, :location, :programs_available, :scholarship 
    def  self.details
      puts <<-DOC.gsub /^\s*/,' '
      1. Le Wagon
